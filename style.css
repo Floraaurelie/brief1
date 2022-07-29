@@ -1,0 +1,255 @@
+.entete{
+  /* mettre les elements sur la meme ligne */
+  display: flex;
+  /* height: 100px; */
+  /* width: 600px; */
+  top: 20px;
+}
+.aurelie{
+  width: 600px;
+  height: 50px;
+  margin-top: -75px;
+  margin-left: 165px;
+  border-radius: 50px;
+  box-shadow: 1px 2px 1px 2px gray;
+
+}
+
+.logobing{
+  margin-left: 7px;
+  margin-top: -20px;
+}
+
+
+input[type=search]{
+position: absolute;  
+left:145px;
+width: 580px;
+height:40px;
+margin: 30px;
+font-size: 20px;
+margin-top: 5px;
+border:none;
+outline: none;
+
+}
+
+
+.connexion input[value="connexion"]{
+  position:absolute;  
+  left:1100px;
+  margin:30px;
+  width: 120px;
+height: 40px;
+margin-top: 10px;
+
+  }
+
+  .menu3bar{
+    position: absolute;  
+    left: 1260px;
+    margin-top: 13px;
+  }
+
+.micro{
+  position:absolute;  
+  left: 600px;
+  margin:30px;
+margin-top: 5px;
+}
+
+.camera{
+  position:absolute;  
+  left: 650px;
+  margin:30px;
+  margin-top: 5px;
+}
+
+.loupe{
+  position:absolute;  
+  left: 690px;
+  margin:30px;
+  margin-top: 5px;
+}
+.filter{
+  position:absolute;  
+  left: 1260px;
+margin-top: -5px;
+}
+
+.responsive .gallery1 .desc1 a {
+  /* color: #000; */
+  text-decoration: none;
+}
+
+.gallery .desc a {
+  /* color: #000; */
+  text-decoration: none;
+}
+
+.hf a {
+  /* color: #000; */
+  text-decoration: none;
+}
+
+.href{
+  margin-top: -30px;
+}
+
+
+section{
+display: flex;
+
+}
+#be{
+  display: flex;
+}
+
+section .gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+ width: 150px;
+  height: 60px;
+  border-radius: 60px;
+  font-size: 10px;
+
+
+}
+
+div #gallery:hover {
+  border: 1px solid #777;
+  border-radius: 50px;
+
+
+}
+
+.images{
+  border-radius: 100px;
+  border: 1px solid #ccc;
+  top: 12px;
+  left: 12px;
+  /* margin-bottom:5px; */
+
+}
+
+div.desc{
+margin-left: 20px;
+margin-top: 12px;  
+}
+
+div.desc.a{
+  text-decoration: none;
+}
+
+
+.prev {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 18px;
+  color: rgb(11, 5, 5);
+  font-weight: bold;
+  transition: 0.6s ease;
+  user-select: none;
+  margin-left: 1px;
+}
+
+div.swiper.button.next {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 18px;
+  font-weight: bold;
+  transition: 0.6s ease;
+  user-select: none;
+  margin-left: 1340px;
+  width: 20px;
+  }
+
+
+
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 6px;
+    padding-top: 10px;
+    float: left;
+    width: 20%;
+    height: 280px;
+    /* margin: 5px; */
+    margin-bottom: 70px;
+  }
+    div.gallery1 {
+    border: 1px solid #ccc;
+    width: 255px;
+    height: 285px;
+    border-radius: 25px;
+    /* margin-top: 20px; */
+box-shadow: #ccc;
+  }
+  
+  div.gallery1:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery1 img {
+    width: 250px;
+    height: auto;
+    border-radius:25px 25px 0px 0px;
+    margin-top: 0px;
+  }
+.survol{
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+div.gallery1 a:hover .survol{
+    top:-10px;
+    display: block;
+    opacity: 1;
+  }
+  div.gallery1 a:hover .desc1{
+    text-decoration: underline;
+  }
+
+.survol a{
+  color: #ccc;
+text-decoration: none;
+padding-bottom: 15px;
+}
+
+  .survol{
+    margin-top: -50px;
+    opacity: 0;
+  }
+      
+  div.desc1 {
+    padding: 10px;
+    text-align: left;
+  }
+  
+    
+   .hf a:focus{
+
+    font-weight: 900;
+    color: black;
+border-bottom: 7px solid rgb(9, 97, 126);  
+padding-bottom: 10px;
+}
+
+
+  .amage{
+    text-decoration: none;
+    margin: 0 3px;
+  }
+  .amage:hover .survol{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color:rgb(249, 253, 253);
+    display: block;
+  }
+
+  
+  
